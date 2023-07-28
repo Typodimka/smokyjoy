@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/smokyjoy/static/css/main.f55f2b20.css",
+    "main.js": "/smokyjoy/static/js/main.0d9463fd.js",
+    "static/js/787.31dea519.chunk.js": "/smokyjoy/static/js/787.31dea519.chunk.js",
+    "static/media/backgrond.svg": "/smokyjoy/static/media/backgrond.b21c3d49dec2ff46a165.svg",
+    "index.html": "/smokyjoy/index.html",
+    "main.f55f2b20.css.map": "/smokyjoy/static/css/main.f55f2b20.css.map",
+    "main.0d9463fd.js.map": "/smokyjoy/static/js/main.0d9463fd.js.map",
+    "787.31dea519.chunk.js.map": "/smokyjoy/static/js/787.31dea519.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f55f2b20.css",
+    "static/js/main.0d9463fd.js"
+  ]
+}
