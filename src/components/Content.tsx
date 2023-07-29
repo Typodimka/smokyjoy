@@ -1,29 +1,6 @@
-import React, {SyntheticEvent, useState} from "react";
+import React from "react";
 
 export const Content = () => {
-    const [email, setEmail] = useState('');
-
-    const handleSubmit = async (e: SyntheticEvent) => {
-        e.preventDefault();
-
-        try {
-            const response = await fetch('/send-email', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ email })
-            });
-
-            if (response.ok) {
-                console.log('Письмо успешно отправлено!');
-            } else {
-                console.log('Произошла ошибка при отправке письма.');
-            }
-        } catch (error) {
-            console.log('Произошла ошибка при отправке письма:', error);
-        }
-    };
 
     return(
         <div className={'content'}>
@@ -39,7 +16,7 @@ export const Content = () => {
                     </p>
                 </div>
 
-                <form className={'form'} onSubmit={handleSubmit}>
+                <form className={'form'} >
                     <h3>Получить оптовый прайс</h3>
                     <p>Оставьте заявку и мы отправим вам оптовый прайс на продукцию</p>
                     <div className={'form_input'} >

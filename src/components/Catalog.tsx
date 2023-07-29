@@ -1,4 +1,15 @@
 import React from "react";
+
+import eco from '../assets/img/icon/ecology.png'
+import pack from '../assets/img/icon/packaging.png'
+import form from '../assets/img/icon/form.png'
+import fire from '../assets/img/icon/fire.png'
+import smells from '../assets/img/icon/smells.png'
+
+import catalog1 from '../assets/img/catalog1.svg'
+import catalog2 from '../assets/img/catalog2.svg'
+
+
 export const Catalog = () => {
     return(
         <div className={'catalog'}>
@@ -11,25 +22,25 @@ export const Catalog = () => {
 
                 <div className={'advantages_icon'}>
                     <div>
-                        <img src="/img/icon/ecology.png" alt=""/>
+                        <img src={`${eco}`} alt=""/>
                         <p>Экологически чистый продукт</p>
                     </div>
                     <div>
-                        <img src="/img/icon/packaging.png" alt=""/>
+                        <img src={`${pack}`} alt=""/>
                         <p>Удобные варианты фасовки</p>
                     </div>
                     <div>
-                        <img src="/img/icon/form.png" alt=""/>
+                        <img src={`${form}`} alt=""/>
                         <p>Идеальная форма и плотность</p>
                     </div>
 
                     <div>
-                        <img src="/img/icon/fire.png" alt=""/>
+                        <img src={`${fire}`} alt=""/>
                         <p>Отличная жароотдача</p>
                     </div>
 
                     <div>
-                        <img src="/img/icon/smells.png" alt=""/>
+                        <img src={`${smells}`} alt=""/>
                         <p>Отсутствие запахов</p>
                     </div>
 
@@ -41,12 +52,12 @@ export const Catalog = () => {
                 <h1 >Каталог продукции</h1>
                 <div className={'container catalog_image '}>
                     <div className={'catalog_image_cart'}>
-                        <img src='./img/catalog1.svg' alt=""/>
-                        <p>Zip-пfкет 1кг.</p>
+                        <img src={`${catalog1}`} alt=""/>
+                        <p>Zip-пакет 1кг.</p>
                     </div>
 
                     <div className={'catalog_image_cart'}>
-                        <img src="./img/catalog2.svg" alt=""/>
+                        <img src={`${catalog2}`} alt=""/>
                         <p>Шоу бокс 36 стиков по 6 шт. (216 шт.)</p>
                     </div>
 
