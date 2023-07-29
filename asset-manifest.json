@@ -1,16 +1,27 @@
 {
   "files": {
     "main.css": "/smokyjoy/static/css/main.f55f2b20.css",
-    "main.js": "/smokyjoy/static/js/main.0d9463fd.js",
+    "main.js": "/smokyjoy/static/js/main.281ea0f9.js",
     "static/js/787.31dea519.chunk.js": "/smokyjoy/static/js/787.31dea519.chunk.js",
     "static/media/backgrond.svg": "/smokyjoy/static/media/backgrond.b21c3d49dec2ff46a165.svg",
+    "static/media/catalog1.svg": "/smokyjoy/static/media/catalog1.cb937cd59b162389b8aca7907475b53d.svg",
+    "static/media/catalog2.svg": "/smokyjoy/static/media/catalog2.a2230992a723990455d6af0554cb1d3f.svg",
+    "static/media/ecology.png": "/smokyjoy/static/media/ecology.deef4697a8b87e31c2c2.png",
+    "static/media/smells.png": "/smokyjoy/static/media/smells.c603514e1a2f3143858d.png",
+    "static/media/packaging.png": "/smokyjoy/static/media/packaging.a45afb932d04867e38dd.png",
+    "static/media/fire.png": "/smokyjoy/static/media/fire.117dbe2aa0d22a1ab665.png",
+    "static/media/form.png": "/smokyjoy/static/media/form.50d063a093b40e94a9b8.png",
+    "static/media/viber.svg": "/smokyjoy/static/media/viber.64e53dc2ae7a9c2e4b496ecb8fbbb6ed.svg",
+    "static/media/watsapp.svg": "/smokyjoy/static/media/watsapp.7ae4b91841d3c834bcb1ad6c5ad9ccbd.svg",
+    "static/media/tel.svg": "/smokyjoy/static/media/tel.078064f8784178b18a640967f73f654c.svg",
+    "static/media/vk.svg": "/smokyjoy/static/media/vk.ae87ffd3ffedf670fb7e770db2626eaa.svg",
     "index.html": "/smokyjoy/index.html",
     "main.f55f2b20.css.map": "/smokyjoy/static/css/main.f55f2b20.css.map",
-    "main.0d9463fd.js.map": "/smokyjoy/static/js/main.0d9463fd.js.map",
+    "main.281ea0f9.js.map": "/smokyjoy/static/js/main.281ea0f9.js.map",
     "787.31dea519.chunk.js.map": "/smokyjoy/static/js/787.31dea519.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f55f2b20.css",
-    "static/js/main.0d9463fd.js"
+    "static/js/main.281ea0f9.js"
   ]
 }
