@@ -1,0 +1,267 @@
+$backgroundGradient: linear-gradient(to top left, black, #938301);
+$sizes: ("xs":320px, "sm":576px, "md":768px, "lg":992px, "xl":1200px);
+
+
+.advantages{
+  margin-top: 100px;
+  color: white;
+
+  .advantages_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .payment{
+      text-align: center;
+      background: $backgroundGradient;
+      width: 500px;
+      height: 220px;
+      border-radius: 10px;
+      padding: 35px;
+      p{
+        font-size: 16px;
+        color: white;
+      }
+    }
+
+    .advantages_top_email{
+      text-align: center;
+
+      input{
+        width: 400px;
+        height: 30px;
+        border: none;
+        background: none;
+        border-bottom: 1px solid #ffffff;
+        font-size: 18px;
+        color: white;
+      }
+
+      input:focus  {
+        outline:none;
+      }
+
+      button{
+        background: $backgroundGradient;
+        width: 400px;
+        height: 40px;
+        margin-top: 20px;
+        color: white;
+        border-radius: 30px;
+        font-size: 14px;
+      }
+
+      button:hover{
+        color: black;
+      }
+    }
+
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+  .advantages{
+    margin-top: 50px;
+    color: white;
+
+    .advantages_top{
+
+
+      .payment{
+
+        width: 400px;
+        height: 200px;
+        border-radius: 10px;
+        padding: 25px;
+
+        h2{
+          font-size: 20px;
+        }
+        p{
+          font-size: 14px;
+        }
+      }
+
+      .advantages_top_email{
+        text-align: center;
+        width: 300px  ;
+
+        input{
+          width: 300px;
+
+        }
+
+        input:focus  {
+          outline:none;
+        }
+
+        button{
+          background: $backgroundGradient;
+          width: 300px;
+          height: 40px;
+
+        }
+      }
+
+    }
+  }
+}
+
+
+
+
+@media (max-width: 768px) {
+  .advantages{
+
+    margin-top: 50px;
+    color: white;
+
+    .advantages_top{
+
+
+      .payment{
+
+        width: 250px;
+        height: 170px;
+        border-radius: 10px;
+        padding: 20px;
+
+        h2{
+          font-size: 18px;
+        }
+        p{
+          font-size: 14px;
+        }
+      }
+
+      .advantages_top_email{
+        text-align: center;
+        width: 250px;
+
+        h3{
+          font-size: 16px;
+        }
+
+        p{
+          font-size: 12px;
+        }
+
+        input{
+          width: 250px;
+          height: 20px;
+          font-size: 16px;
+
+        }
+
+        form{
+          height: 30px;
+
+        }
+
+        input:focus  {
+          outline:none;
+        }
+
+        button{
+          background: $backgroundGradient;
+          width: 200px;
+          height: 30px;
+
+        }
+      }
+
+    }
+  }
+}
+
+@media (max-width: 576px) {
+
+  .advantages{
+
+    margin-top: 50px;
+    color: white;
+
+    .advantages_top{
+
+
+      .payment{
+
+        width: 250px;
+        height: 170px;
+        border-radius: 10px;
+        padding: 20px;
+
+        h2{
+          font-size: 18px;
+        }
+        p{
+          font-size: 14px;
+        }
+      }
+
+      .advantages_top_email{
+        text-align: center;
+        width: 200px;
+
+        h3{
+          font-size: 14px;
+        }
+
+        p{
+          font-size: 12px;
+        }
+
+        input{
+          width: 200px;
+          height: 20px;
+          font-size: 16px;
+
+        }
+
+      }
+
+    }
+  }
+}
+
+
+@media (max-width: 480px) {
+  .advantages{
+
+
+
+
+    .advantages_top{
+      flex-direction: column;
+
+      .advantages_top_email{
+        margin-top: 30px;
+        width: 80%;
+        h3{
+          font-size: 14px;
+        }
+        p{
+          font-size: 12px;
+
+        }
+      }
+      }
+
+
+      }
+
+    }
+
+
+@media (max-width: 320px) {}
+

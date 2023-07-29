@@ -1,0 +1,173 @@
+.catalog{
+  color: white;
+  margin-top: 50px;
+
+  .advantages_icon{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+
+      div{
+        text-align: center;
+        width: 20%;
+
+      img {
+        width: 100px;
+
+      }
+    }
+
+  }
+
+  h1{
+    text-align: center;
+
+  }
+  .catalog_production{
+    margin-top: 100px;
+
+
+    .catalog_image{
+      margin-top: 70px;
+
+      justify-content: space-between;
+      display: flex;
+
+      .catalog_image_cart{
+        text-align: center;
+
+        img{
+          transition: 1s; /* Время эффекта */
+        }
+
+        img:hover{
+          transform: scale(1.03); /* Увеличиваем масштаб */
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 1000px) {
+  .catalog{
+
+    h2{
+      font-size: 20px;
+    }
+    .catalog_production{
+
+      .catalog_image{
+
+        margin-top: 30px;
+
+        .catalog_image_cart{
+          text-align: center;
+          img{
+            width: 400px;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+
+@media (max-width: 768px) {
+  .catalog{
+
+    .catalog_production{
+
+      h1{
+        font-size: 26px;
+      }
+
+
+      .catalog_image{
+
+        margin-top: 30px;
+
+        .catalog_image_cart{
+          img{
+            width: 300px;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+@media (max-width: 576px) {
+  .catalog{
+
+    .advantages_icon{
+      div{
+        img{
+          width: 70px;
+        }
+      }
+    }
+
+
+    .catalog_production{
+
+      .catalog_image{
+
+        margin-top: 30px;
+
+        .catalog_image_cart{
+          img{
+            width: 200px;
+          }
+          p{
+            width: 200px;
+
+          }
+        }
+      }
+    }
+
+  }
+}
+
+@media (max-width: 480px) {
+  .catalog{
+
+    h1{
+      font-size: 16px;
+    }
+    p{
+      font-size: 12px;
+    }
+    .catalog_production{
+      margin-top: 50px;
+      h1{
+        font-size: 18px;
+      }
+
+      .catalog_image{
+        margin-top: 30px;
+        flex-direction: column;
+        .catalog_image_cart{
+
+
+          img{
+            width: 250px;
+            margin-top: 10px;
+          }
+          p{
+            width: 250px;
+            margin: 0 auto;
+            margin-top: 20px;
+
+          }
+        }
+      }
+    }
+
+  }
+}
+
+
