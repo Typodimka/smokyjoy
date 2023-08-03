@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/smokyjoy/static/css/main.f452b1f1.css",
-    "main.js": "/smokyjoy/static/js/main.281ea0f9.js",
+    "main.js": "/smokyjoy/static/js/main.6d0ec0b0.js",
     "static/js/787.31dea519.chunk.js": "/smokyjoy/static/js/787.31dea519.chunk.js",
     "static/media/backgrond.svg": "/smokyjoy/static/media/backgrond.b21c3d49dec2ff46a165.svg",
     "static/media/catalog1.svg": "/smokyjoy/static/media/catalog1.cb937cd59b162389b8aca7907475b53d.svg",
@@ -17,11 +17,11 @@
     "static/media/vk.svg": "/smokyjoy/static/media/vk.ae87ffd3ffedf670fb7e770db2626eaa.svg",
     "index.html": "/smokyjoy/index.html",
     "main.f452b1f1.css.map": "/smokyjoy/static/css/main.f452b1f1.css.map",
-    "main.281ea0f9.js.map": "/smokyjoy/static/js/main.281ea0f9.js.map",
+    "main.6d0ec0b0.js.map": "/smokyjoy/static/js/main.6d0ec0b0.js.map",
     "787.31dea519.chunk.js.map": "/smokyjoy/static/js/787.31dea519.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f452b1f1.css",
-    "static/js/main.281ea0f9.js"
+    "static/js/main.6d0ec0b0.js"
   ]
 }
