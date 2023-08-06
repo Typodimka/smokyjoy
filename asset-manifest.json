@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/smokyjoy/static/css/main.f452b1f1.css",
-    "main.js": "/smokyjoy/static/js/main.6d0ec0b0.js",
+    "main.css": "/smokyjoy/static/css/main.8f2eb509.css",
+    "main.js": "/smokyjoy/static/js/main.b6c98037.js",
     "static/js/787.31dea519.chunk.js": "/smokyjoy/static/js/787.31dea519.chunk.js",
     "static/media/backgrond.svg": "/smokyjoy/static/media/backgrond.b21c3d49dec2ff46a165.svg",
     "static/media/catalog1.svg": "/smokyjoy/static/media/catalog1.cb937cd59b162389b8aca7907475b53d.svg",
     "static/media/catalog2.svg": "/smokyjoy/static/media/catalog2.a2230992a723990455d6af0554cb1d3f.svg",
+    "static/media/quality.png": "/smokyjoy/static/media/quality.331704d49a517ec026fc.png",
     "static/media/ecology.png": "/smokyjoy/static/media/ecology.deef4697a8b87e31c2c2.png",
+    "static/media/volumes.png": "/smokyjoy/static/media/volumes.9f48773ef02141519c49.png",
+    "static/media/factory.png": "/smokyjoy/static/media/factory.31c53387be00650e302e.png",
     "static/media/smells.png": "/smokyjoy/static/media/smells.c603514e1a2f3143858d.png",
     "static/media/packaging.png": "/smokyjoy/static/media/packaging.a45afb932d04867e38dd.png",
     "static/media/fire.png": "/smokyjoy/static/media/fire.117dbe2aa0d22a1ab665.png",
@@ -16,12 +19,12 @@
     "static/media/tel.svg": "/smokyjoy/static/media/tel.078064f8784178b18a640967f73f654c.svg",
     "static/media/vk.svg": "/smokyjoy/static/media/vk.ae87ffd3ffedf670fb7e770db2626eaa.svg",
     "index.html": "/smokyjoy/index.html",
-    "main.f452b1f1.css.map": "/smokyjoy/static/css/main.f452b1f1.css.map",
-    "main.6d0ec0b0.js.map": "/smokyjoy/static/js/main.6d0ec0b0.js.map",
+    "main.8f2eb509.css.map": "/smokyjoy/static/css/main.8f2eb509.css.map",
+    "main.b6c98037.js.map": "/smokyjoy/static/js/main.b6c98037.js.map",
     "787.31dea519.chunk.js.map": "/smokyjoy/static/js/787.31dea519.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f452b1f1.css",
-    "static/js/main.6d0ec0b0.js"
+    "static/css/main.8f2eb509.css",
+    "static/js/main.b6c98037.js"
   ]
 }
